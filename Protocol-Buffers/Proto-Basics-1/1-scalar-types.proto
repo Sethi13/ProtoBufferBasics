@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message initalInfo{
+    int32 id =1;
+    string first_name =2;
+    string last_name = 3;
+    bool isValidated = 4;
+    float height = 5;  
+}

@@ -1,0 +1,18 @@
+// syntax shows which version of proto is being used
+syntax = "proto3";
+
+message Person{
+    int32 age =1;
+    string first_name =2;
+    string last_name = 3;
+    bool isValidated = 4;
+    // height in cms
+    float height = 5;
+    byte small_picture=6;
+
+    // Repeated is the keyword for arrays of strings of phone numbers
+    // a list of phone numbers= 
+    repeated string phone_numbers=7;
+
+
+}
